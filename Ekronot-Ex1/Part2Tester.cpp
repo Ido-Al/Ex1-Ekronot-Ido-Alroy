@@ -219,7 +219,7 @@
 // 			"\n\t\t\tYou are amazing!!!\n" ;
 // }
 //
-//int main1()
+//int main()
 //{
 //	bool test1Result = test1();
 //	bool test2Result = test2();
