@@ -13,7 +13,7 @@ int pop(Stack* s)
 	{
 		return -1;
 	}
-	int r = s->head->data;
+	int r = s->head->data; // saving the return value 
 	node* temp = s->head;
 	s->head = s->head->next;
 	delete(temp);

@@ -11,13 +11,13 @@ typedef struct Queue
 	
 } Queue;
 
-void initQueue(Queue* q, unsigned int size);
-void cleanQueue(Queue* q);
+void initQueue(Queue* q, unsigned int size); // function to initalize queue
+void cleanQueue(Queue* q); // funtion clean the queue
 
-void enqueue(Queue* q, unsigned int newValue);
+void enqueue(Queue* q, unsigned int newValue); // funtion to add to queue
 int dequeue(Queue* q); // return element in top of queue, or -1 if empty
 
-bool isEmpty(Queue* s);
-bool isFull(Queue* s);
+bool isEmpty(Queue* s); // function to check if queue empty
+bool isFull(Queue* s); // function to check if queue full
 
 #endif /* QUEUE_H */
