@@ -127,12 +127,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Ekronot-Ex1.cpp" />
     <ClCompile Include="LinkedList.cpp" />
     <ClCompile Include="Part1Tester.cpp" />
     <ClCompile Include="Part2Tester.cpp" />
     <ClCompile Include="Queue.cpp" />
     <ClCompile Include="Stack.cpp" />
+    <ClCompile Include="Utils.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="LinkedList.h" />

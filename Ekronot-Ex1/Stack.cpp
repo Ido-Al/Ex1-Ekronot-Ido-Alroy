@@ -42,5 +42,9 @@ bool isEmpty(Stack* s)
 	{
 		return true;
 	}
+	else
+	{
+		return false;
+	}
 }
 bool isFull(Stack* s) { return false;  }
